@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shop.Application.Products
+namespace Shop.Application.CreateProducts
 {
     public class CreateProduct
     {
