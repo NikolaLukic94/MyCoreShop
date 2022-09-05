@@ -12,5 +12,9 @@ namespace Shop.Domain.Models
         public string Name { get; set; }
         public string Description { get; set; }
         public decimal Value { get; set; }
+        // Not using List since it takes more memory and we need only a few functions
+        public ICollection<Stock> Stock { get; set; }
+        public ICollection<OrderProduct> OrderProducts { get; set; }
+
     }
 }
